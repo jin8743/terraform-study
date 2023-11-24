@@ -10,5 +10,5 @@ terraform {
 }
 
 resource "aws_eip" "lb" {
-  domain   = "vpc"
+  domain = "vpc"
 }
